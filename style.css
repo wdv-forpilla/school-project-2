@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+.mobile-only {
+    display: none;
+}
+
+/*UTILITY PAGE*/
+.hero,
+.hero-bottom,
+.items,
+.nav-bottom {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+/*UTILITY PAGE*/
+
+
+/*NAVBAR-TOP START*/
+
+.navbar-top {
+    text-align: center;
+    padding: 1%;
+}
+
+
+.top-flex li {
+    display: inline;
+    color: #00bacf;
+    font-size: larger;
+    padding-right: 3%;
+}
+
+.my-account i {
+    position: relative;;
+}
+
+.my-account sup {
+    font-size: 1.2rem;
+}
+
+.top-right a {
+    font-size: 1.5rem;
+}
+
+/*NAVABAR-TOP END*/
+
+.nav-s {
+    text-align: center;
+    padding: 1%;
+}
+
+.nav-s a {
+    color: #f89a54;
+    padding-left: 5%;
+}
+
+.nav-s sup {
+    background-color: #f89a54;
+    color: white;
+    border-radius: 50%;
+    padding: 4px;
+}
+
+.searchbar input {
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    width: 30%;
+}
+
+/* NAVBAR START */
+
+.container {
+    justify-content: space-between;
+}
+
+.navbar .container {
+    min-height: 7rem;
+}
+
+.navbar {
+    width: 100%;
+    color: white;
+    background-color: #00bacf;
+}
+
+.nav-nav {
+    padding: 1%;
+}
+.nav-nav li {
+    display: inline;
+}
+
+.nav-nav a {
+    padding: 1%;
+}
+
+/* NAVBAR END */
+
+/*SEARCH BAR START*/
+
+
+/*SEARCH BAR END*/
+
+/*NAVBAR-BOTTOM-START*/
+
+.nav-bottom {
+    background-color: #f89a54;
+}
+
+.nav-bottom-left {
+    padding: .1%;
+    text-align: center;
+}
+
+
+.nav-bot-content li {
+    display: inline;
+    padding-right: 5%;
+}
+
+/*NAVBAR-BOTTOM-END*/
+
+/* HERO START */
+
+.hero {
+    min-height: 65vh;
+    background-image:url('imgs/goodboy1.jpg');
+    background-position: 100% 15%;
+    background-size: cover;
+}
+
+.hero h1 {
+    color:white;
+    opacity: 90%;
+    text-transform: capitalize;
+}
+
+.hero .flex {
+    justify-content: flex-start;
+}
+
+.hero-content {
+    width: 50%;
+}
+
+
+/* HERO END */
+
+/*HERO-BOTTOM START*/
+
+.hero-bottom {
+    text-align: center;
+    padding: 1%;
+    background-color: #00bacf;
+}
+
+.list {
+    display: inline-block;
+    text-align: center;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.list h4 {
+    color: white;
+}
+
+.list p {
+   color: #d6fbff;
+}
+
+.hero-bot-cont1,
+.hero-bot-cont2 {
+    border-right: 2px solid #4fe7f8;
+}
+
+/*HERO-BOTTOM END*/
+
+/*GRID START*/
+
+.items {
+    background-color: #f89a54;
+}
+
+.item-grid {
+    text-align: center;
+}
+
+.gridfood{
+    display: inline-block;
+    padding: 2%;
+}
+
+.gridfood h4 {
+    color: white;
+}
+
+.gridfood p {
+    color: white;
+}
+
+/*GRID END*/
+
+/*ABOUT START*/
+
+.about {
+    text-align: center;
+    padding: 5%;
+}
+
+.about-content h4 {
+    color: #f89a54;
+}
+
+.about-content p {
+    margin: auto;
+    width: 50%;
+    padding: 2%;
+}
+
+/*ABOUT END*/
+
+/*WHAW NEW START*/
+
+.new {
+    background-color: #f89a54;
+    padding: 2%;
+    padding-left: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.whats-new h4 {
+    color: white;
+    width: 30%;
+}
+
+.whats-new p {
+    color: white;
+    width: 30%;
+}
+
+
+
+/*WAHT NEW END*/
+
+/*SUB START*/
+
+.sub {
+    text-align: center;
+    padding: 5%;
+}
+
+.subscribe h4 {
+    color: #f89a54;
+}
+
+.subscribe p {
+    padding-bottom: 2%;
+}
+
+.subscribe input {
+    font-size: 1.5rem;
+    padding: 1.2rem;
+    width: 30%;
+}
+
+/*SUB END*/
+
+/*DIRECTION START*/
+
+.dir {
+    background-color:  #00bacf;
+    padding: 2%;
+    padding-left: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.direction h4 {
+    color: white;
+}
+
+.direction p {
+    color: white;
+}
+
+.direction sub {
+    color: white;
+    font-size: larger;
+}
+
+/*DIRECTION END*/
+
+
+/* FOOTER START */
+
+.footer p {
+    padding: 2rem 0rem;
+    color: #00bacf;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* FOOTER END */
+
+@media only screen and (max-width: 1196px) {
+    .mobile-only {
+        display: block !important;
+    }
+
+    .desktop-only {
+        display: none !important;
+    }
+  }
